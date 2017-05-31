@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{1208F76E-50D6-46F5-B814-9E75F20CA14F}"
+	ProjectSection(SolutionItems) = preProject
+		gulp-config.js = gulp-config.js
+		gulpfile.js = gulpfile.js
+		package.json = package.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{8575A792-AF64-45F3-8B7E-7EF40CDA5248}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{18CE75EE-0587-439D-9C0C-1A5A7B37E2E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{D6CE073B-666C-473D-9068-F2E4D836E779}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FieldOptions", "FieldOptions", "{B967BF37-4467-4EF5-AA8E-60A359FF25B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Foundation.FieldOptions", "src\Foundation\FieldOptions\code\Sitecore.Foundation.FieldOptions.csproj", "{F7853191-E2E0-4019-BA62-501AC222E19F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{80F34096-D89D-4F40-AEF0-032AAF8E2B57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ORM", "ORM", "{DEF641E9-9FF9-44A0-A8FF-BF80D33F1420}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Foundation.ORM", "src\Foundation\ORM\code\Sitecore.Foundation.ORM.csproj", "{FAA1F9C1-F72F-4883-A0C8-C17BDA7BDCEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Foundation.Serialization", "src\Foundation\Serialization\code\Sitecore.Foundation.Serialization.csproj", "{38526B0D-26DC-4FC1-8FF2-20F06EBF6E3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Project.Example", "src\Project\Example\code\Sitecore.Project.Example.csproj", "{87DEB24A-EE2F-4782-B1ED-531AD92CBFFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7853191-E2E0-4019-BA62-501AC222E19F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7853191-E2E0-4019-BA62-501AC222E19F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7853191-E2E0-4019-BA62-501AC222E19F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7853191-E2E0-4019-BA62-501AC222E19F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAA1F9C1-F72F-4883-A0C8-C17BDA7BDCEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAA1F9C1-F72F-4883-A0C8-C17BDA7BDCEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAA1F9C1-F72F-4883-A0C8-C17BDA7BDCEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAA1F9C1-F72F-4883-A0C8-C17BDA7BDCEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38526B0D-26DC-4FC1-8FF2-20F06EBF6E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38526B0D-26DC-4FC1-8FF2-20F06EBF6E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38526B0D-26DC-4FC1-8FF2-20F06EBF6E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38526B0D-26DC-4FC1-8FF2-20F06EBF6E3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87DEB24A-EE2F-4782-B1ED-531AD92CBFFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87DEB24A-EE2F-4782-B1ED-531AD92CBFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87DEB24A-EE2F-4782-B1ED-531AD92CBFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87DEB24A-EE2F-4782-B1ED-531AD92CBFFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B967BF37-4467-4EF5-AA8E-60A359FF25B6} = {8575A792-AF64-45F3-8B7E-7EF40CDA5248}
+		{F7853191-E2E0-4019-BA62-501AC222E19F} = {B967BF37-4467-4EF5-AA8E-60A359FF25B6}
+		{80F34096-D89D-4F40-AEF0-032AAF8E2B57} = {8575A792-AF64-45F3-8B7E-7EF40CDA5248}
+		{DEF641E9-9FF9-44A0-A8FF-BF80D33F1420} = {8575A792-AF64-45F3-8B7E-7EF40CDA5248}
+		{FAA1F9C1-F72F-4883-A0C8-C17BDA7BDCEA} = {DEF641E9-9FF9-44A0-A8FF-BF80D33F1420}
+		{38526B0D-26DC-4FC1-8FF2-20F06EBF6E3E} = {80F34096-D89D-4F40-AEF0-032AAF8E2B57}
+		{87DEB24A-EE2F-4782-B1ED-531AD92CBFFE} = {D6CE073B-666C-473D-9068-F2E4D836E779}
+	EndGlobalSection
+EndGlobal

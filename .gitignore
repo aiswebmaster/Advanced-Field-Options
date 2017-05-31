@@ -3,3 +3,15 @@
 ################################################################################
 
 /.vs
+/libraries
+/node_modules
+/packages
+/src/Foundation/FieldOptions/code/bin
+/src/Foundation/FieldOptions/code/obj
+*.user
+/src/Foundation/ORM/code/bin
+/src/Foundation/ORM/code/obj
+/src/Foundation/Serialization/code/bin
+/src/Foundation/Serialization/code/obj
+/src/Project/Example/code/bin
+/src/Project/Example/code/obj
