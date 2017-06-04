@@ -1,0 +1,18 @@
+﻿---
+ID: "68c1c7a9-2b4e-4486-81a8-1ada962675df"
+Parent: "34f7d0a1-358e-4d82-95c9-864733432d5c"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/client/Applications/FieldOptions/Common/Renderings/OptionsView
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170604T040244Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

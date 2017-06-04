@@ -1,0 +1,24 @@
+﻿---
+ID: "beb1f7df-9735-460f-80a4-48450cf2986c"
+Parent: "4ec76e58-5da4-4579-832e-adef23e1e3b2"
+Template: "4ec76e58-5da4-4579-832e-adef23e1e3b2"
+Path: /sitecore/templates/FieldOptions/Field Option/__Standard Values
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170604T032511Z
+    - ID: "31e694ba-6cb0-44c3-9868-454dc25048ff"
+      Hint: Title
+      Value: $name
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "76d4306b-dcc1-4936-8ee1-b62aebbee516"
+      Hint: ParameterName
+      Value: $name

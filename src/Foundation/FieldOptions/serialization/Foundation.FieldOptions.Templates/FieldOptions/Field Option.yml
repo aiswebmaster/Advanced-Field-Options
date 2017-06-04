@@ -1,0 +1,21 @@
+﻿---
+ID: "4ec76e58-5da4-4579-832e-adef23e1e3b2"
+Parent: "330fd7e6-ae71-4208-b458-1ccb4c2145e4"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/FieldOptions/Field Option
+DB: core
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Control/32x32/edit_b.png
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{BEB1F7DF-9735-460F-80A4-48450CF2986C}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170604T031811Z
