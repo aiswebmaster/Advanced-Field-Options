@@ -94,10 +94,13 @@
     <Content Include="App_Config\Include\z.Foundation\Sitecore.Foundation.FieldOptions.config" />
     <Content Include="App_Config\Include\z.Foundation\Sitecore.Foundation.FieldOptions.Serialization.config" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <Content Include="Views\FieldOption\OptionsView.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Commands\FieldOptionsCommand.cs" />
+    <Compile Include="Controllers\FieldOptionController.cs" />
+    <Compile Include="Repository\FieldRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -111,7 +114,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
