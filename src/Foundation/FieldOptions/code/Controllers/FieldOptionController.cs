@@ -10,6 +10,10 @@ namespace Sitecore.Foundation.FieldOptions.Controllers
     {
         public ActionResult OptionsView()
         {
+            var repo = new FieldRepository();
+
+
+
             return View(null);
         }
     }
