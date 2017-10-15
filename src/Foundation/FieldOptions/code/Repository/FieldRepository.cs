@@ -5,7 +5,8 @@ using System.Linq;
 using System.Web;
 using Sitecore.Foundation.FieldOptions.Models.Data;
 using Sitecore.Data.Items;
-using Sitecore.Collections;
+using Sitecore.ContentSearch.SearchTypes;
+using Sitecore.ContentSearch.Linq;
 
 namespace Sitecore.Foundation.FieldOptions
 {
@@ -15,28 +16,34 @@ namespace Sitecore.Foundation.FieldOptions
         public IEnumerable<IFieldOption> GetFieldsByType(Guid fieldTypeTemplateId)
         {
             var database = Sitecore.Context.ContentDatabase;
+            SearchResults<SearchResultItem> results = null;
 
             if (database == null)
                 return null;
 
-            Item fieldDefinitionFolder = database.GetItem(new Data.ID(FieldOptions.Constants.FieldDefinitionPathId));
+            Item fieldTemplateItem = database.GetItem(new Data.ID(fieldTypeTemplateId));
 
-            if (fieldDefinitionFolder == null)
+            if (fieldTemplateItem == null)
             {
                 return null;
             }
 
-            ChildList fieldDefinitions = fieldDefinitionFolder.GetChildren();
-
-            if (fieldDefinitions != null && fieldDefinitions.Any())
+            using (var context = Sitecore.ContentSearch.ContentSearchManager.GetIndex("sitecore_core_index").CreateSearchContext())
             {
-                var field = fieldDefinitions.FirstOrDefault(f => f.ID.ToGuid().Equals(fieldTypeTemplateId));
+                var query = context.GetQueryable<SearchResultItem>();
 
-                // Return Collection of Field Options
-                field.
+                query.Where(i => i.Paths.Contains(fieldTemplateItem.ID));
+
+                query.Filter(x => x.TemplateId.ToGuid() == Constants.FieldOptionTemplateId);
+
+                results = query.GetResults<SearchResultItem>();
             }
 
-            using 
+            if (results != null && results.Any())
+            {
+                //return results.Where(i => i != null && i.Document != null).Select(i => i.)
+            }
+
 
 
             return null;
