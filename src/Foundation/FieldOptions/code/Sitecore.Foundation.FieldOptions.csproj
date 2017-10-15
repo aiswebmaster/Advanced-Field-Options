@@ -108,9 +108,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Commands\FieldOptionsCommand.cs" />
+    <Compile Include="Constants.cs" />
     <Compile Include="Controllers\FieldOptionController.cs" />
+    <Compile Include="Models\Data\IFieldOption.cs" />
+    <Compile Include="Models\FieldViewModel.cs" />
     <Compile Include="Repository\FieldRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\IFieldRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
@@ -122,9 +126,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

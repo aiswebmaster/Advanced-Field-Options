@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace Sitecore.Foundation.FieldOptions.Controllers
 {
-    public class FieldOptionController
+    public class FieldOptionController : Controller
     {
         public ActionResult OptionsView()
         {
@@ -14,7 +14,7 @@ namespace Sitecore.Foundation.FieldOptions.Controllers
 
 
 
-            return View(null);
+            return View(string.Empty);
         }
     }
 }

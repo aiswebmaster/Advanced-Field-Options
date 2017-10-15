@@ -1,8 +1,8 @@
 ﻿---
 ID: "c0881f34-3f33-4f89-9f7f-c5a6a059e85e"
-Parent: "71a08b10-43d2-40dc-ab1a-b9e916fa780a"
+Parent: "f7e86c80-9b02-49bf-ba19-fe5b562181a1"
 Template: "4ec76e58-5da4-4579-832e-adef23e1e3b2"
-Path: /sitecore/system/Field types/List Types/Multilist with Search/StartSearchLocation
+Path: /sitecore/system/Field types/List Types/Multilist with Search/Options/StartSearchLocation
 DB: core
 Languages:
 - Language: en
@@ -24,4 +24,4 @@ Languages:
       Value: StartSearchLocation
     - ID: "f9f1e8c3-cc13-4ea3-8b3c-03b63de39248"
       Hint: FieldType
-      Value: "Single-Line Text"
+      Value: valuelookup

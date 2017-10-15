@@ -1,0 +1,14 @@
+﻿---
+ID: "f7e86c80-9b02-49bf-ba19-fe5b562181a1"
+Parent: "71a08b10-43d2-40dc-ab1a-b9e916fa780a"
+Template: "a284e89a-d837-41e5-b6e3-5f76b0c94b4d"
+Path: /sitecore/system/Field types/List Types/Multilist with Search/Options
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171015T170210Z
